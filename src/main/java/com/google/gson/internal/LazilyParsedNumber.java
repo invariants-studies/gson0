@@ -77,4 +77,13 @@ public final class LazilyParsedNumber extends Number {
   private Object writeReplace() throws ObjectStreamException {
     return new BigDecimal(value);
   }
+
+  /*@Override
+  public int hashCode() {
+  }*/
+
+  /*@Override
+  public boolean equals(Object obj) {
+
+  }*/
 }

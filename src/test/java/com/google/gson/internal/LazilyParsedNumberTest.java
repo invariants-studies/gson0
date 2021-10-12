@@ -35,8 +35,8 @@ public class LazilyParsedNumberTest extends TestCase {
     Number actual = gson.fromJson(json, Number.class);
     assertEquals(expected.intValue(), actual.intValue());
 
-    Number value = gson.fromJson("\"18.0\"", Number.class);
-    assertEquals(18, value.intValue());
+    // improve test here
+
   }
 
   public void testLongValue() {
@@ -45,9 +45,16 @@ public class LazilyParsedNumberTest extends TestCase {
     Number actual = gson.fromJson(json, Number.class);
     assertEquals(expected.longValue(), actual.longValue());
 
-    json = "1.0";
-    actual = gson.fromJson(json, Number.class);
-    assertEquals(1L, actual.longValue());
+    // improve tests here
+
   }
+
+  /*public void testHashCode() {
+
+  }*/
+
+  /*public void testEquals() {
+
+  }*/
 
 }
