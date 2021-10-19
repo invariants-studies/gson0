@@ -27,7 +27,7 @@ BagOfPrimitives obj2 = gson.fromJson(json, BagOfPrimitives.class);
 ```
 
 # JSON
-JavaScript Object Notation (JSON) is a plain text format for storing and transporting data. Since the format is text only, JSON data can easily be sent between computers, and used by any programming language. 
+JavaScript Object Notation (JSON) is a plain text format for storing and transporting data. Since the format is text only, JSON data can easily be sent between computers and used by any programming language. 
 
 # JSON Example
 This example is a JSON string:
@@ -45,3 +45,14 @@ Each property has a value. If you parse the JSON string with a JavaScript progra
 let personName = obj.name;
 let personAge = obj.age;
 ```
+# Web Client–Server Relationships
+We can categorize technologies as client side or server side:
+- On the client side, we have HTML, CSS, and JavaScript
+- On the server side, there is PHP, ASP.NET, Node.js, Ruby on Rails, Java, Go, etc.
+
+As a web client, we send requests for resources to a server using HTTP. The server responds with a document, such as HTML or JSON. When that document is a JSON document, the server side code must handle the creation of it.
+
+In addition to serving a JSON document, a server may receive a JSON document. When a document is received, the server-side code must handle the parsing of that document.
+
+JavaScript can make behind-the-scenes HTTP requests for JSON resources to web APIs. It’s easy to think of JavaScript playing this role because it is categorized as “client side.” However, JavaScript isn’t the only language that can make HTTP requests for JSON resources. HTTP requests can also be made by a server-side web framework. In the scenario where JSON is requested by a server-side technology, its role becomes the client.
+
