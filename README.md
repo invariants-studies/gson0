@@ -1,11 +1,25 @@
 # Gson
-[Gson](https://github.com/google/gson) is a Java library that can be used to convert Java Objects into their JSON representation. It can also be used to convert a JSON string to an equivalent Java object. Gson can work with arbitrary Java objects including pre-existing objects that you do not have source-code of.
+[Gson](https://github.com/google/gson) is a Java library that can be used to convert Java objects into their JSON representation. It can also be used to convert a JSON string to an equivalent Java object. Gson can work with arbitrary Java objects including pre-existing objects that you do not have the source code for.
 
-There are a few open-source projects that can convert Java objects to JSON. However, most of them require that you place Java annotations in your classes; something that you can not do if you do not have access to the source-code. Most also do not fully support the use of Java Generics. Gson considers both of these as very important design goals.
+There are a few open source projects that can convert Java objects to JSON. However, most of them require that you place Java annotations in your classes; something that you can not do if you do not have access to the source code. Also, most of these open source projects do not fully support the use of Java Generics. Gson considers both of these as very important design goals.
 
-# Goals
-- Provide simple toJson() and fromJson() methods to convert Java objects to JSON and vice-versa
-- Allow pre-existing unmodifiable objects to be converted to and from JSON
-- Extensive support of Java Generics
-- Allow custom representations for objects
-- Support arbitrarily complex objects (with deep inheritance hierarchies and extensive use of generic types)
+# JSON
+JavaScript Object Notation (JSON) is a plain text format for storing and transporting data. Since the format is text only, JSON data can easily be sent between computers, and used by any programming language. 
+
+# JSON Example
+This example is a JSON string:
+```
+'{"name":"John", "age":30, "car":null}'
+```
+It defines an object with 3 properties:
+- name
+- age
+- car
+
+Each property has a value.
+
+If you parse the JSON string with a JavaScript program, you can access the data as an object:
+```
+let personName = obj.name;
+let personAge = obj.age;
+```
