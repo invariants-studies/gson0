@@ -1,5 +1,5 @@
 # Gson
-[Gson](https://github.com/google/gson) is a Google open source Java library that can be used to convert Java objects into their [JSON](https://github.com/invariants-studies/gson0/blob/master/README.md#json) representation. It can also be used to convert a JSON string to an equivalent Java object. Gson can work with arbitrary Java objects including pre-existing objects that you don't have the source code for.
+The [Gson open source project](https://github.com/google/gson)  is a Java library that can be used to convert Java objects into their JSON representation. It can also be used to convert a JSON string to an equivalent Java object. Gson can work with arbitrary Java objects including pre-existing objects that you don't have the source code for.
 
 There are a few open source projects that can convert Java objects to JSON. However, most of them require that you place Java annotations in your classes which you can't do if you don't have access to the source code. Also, most of these open source projects don't fully support the use of Java Generics. Gson considers both of these as very important design goals.
 
@@ -43,4 +43,3 @@ Each property has a value. If you parse the JSON string with a JavaScript progra
 let personName = obj.name;
 let personAge = obj.age;
 ```
-
