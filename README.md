@@ -33,7 +33,7 @@ BagOfPrimitives obj2 = gson.fromJson(json, BagOfPrimitives.class); // ==> obj2 i
 ```
 
 # JSON
-JavaScript Object Notation (JSON) is a plain text format for storing and transporting data. Since the format is text only, JSON data can easily be sent between computers and used by any programming language. 
+JavaScript Object Notation (JSON) is a plain text format for storing and transporting data.
 
 # JSON Example
 This example is a JSON string:
