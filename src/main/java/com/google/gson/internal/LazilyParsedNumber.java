@@ -32,6 +32,7 @@ public final class LazilyParsedNumber extends Number {
     this.value = value;
   }
 
+  // Implement BigDecimal
   @Override
   public int intValue() {
     try {
@@ -45,6 +46,7 @@ public final class LazilyParsedNumber extends Number {
     }
   }
 
+  // Implement BigDecimal
   @Override
   public long longValue() {
     try {
@@ -77,13 +79,4 @@ public final class LazilyParsedNumber extends Number {
   private Object writeReplace() throws ObjectStreamException {
     return new BigDecimal(value);
   }
-
-  /*@Override
-  public int hashCode() {
-  }*/
-
-  /*@Override
-  public boolean equals(Object obj) {
-
-  }*/
 }

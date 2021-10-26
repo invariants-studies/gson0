@@ -20,7 +20,6 @@ import junit.framework.TestCase;
 
 public class LazilyParsedNumberTest extends TestCase {
 
-  // PrimitiveTest.java
   private Gson gson;
 
   @Override
@@ -29,32 +28,11 @@ public class LazilyParsedNumberTest extends TestCase {
     gson = new Gson();
   }
 
-  public void testIntValue() {
-    String json = "1";
-    Number expected = new Integer(json);
-    Number actual = gson.fromJson(json, Number.class);
-    assertEquals(expected.intValue(), actual.intValue());
-
-    // improve test here
-
-  }
-
-  public void testLongValue() {
-    String json = String.valueOf(Long.MAX_VALUE);
-    Number expected = new Long(json);
-    Number actual = gson.fromJson(json, Number.class);
-    assertEquals(expected.longValue(), actual.longValue());
-
-    // improve tests here
-
-  }
-
-  /*public void testHashCode() {
-
+  /*public void testIntValue() {
+    // Implement testIntValue()
   }*/
 
-  /*public void testEquals() {
-
+  /*public void testLongValue() {
+    // Implement testLongValue()
   }*/
-
 }

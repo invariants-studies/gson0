@@ -238,47 +238,15 @@ public final class JsonPrimitive extends JsonElement {
     return getAsString().charAt(0);
   }
 
-  @Override
+  /*@Override
   public int hashCode() {
-    if (value == null) {
-      return 31;
-    }
-    // Using recommended hashing algorithm from Effective Java for longs and doubles
-    if (isIntegral(this)) {
-      long value = getAsNumber().longValue();
-      return (int) (value ^ (value >>> 32));
-    }
-    if (value instanceof Number) {
-      long value = Double.doubleToLongBits(getAsNumber().doubleValue());
-      return (int) (value ^ (value >>> 32));
-    }
-    return value.hashCode();
-  }
+    // Implement hashCode()
+  }*/
 
-  @Override
+  /*@Override
   public boolean equals(Object obj) {
-    if (this == obj) {
-      return true;
-    }
-    if (obj == null || getClass() != obj.getClass()) {
-      return false;
-    }
-    JsonPrimitive other = (JsonPrimitive)obj;
-    if (value == null) {
-      return other.value == null;
-    }
-    if (isIntegral(this) && isIntegral(other)) {
-      return getAsNumber().longValue() == other.getAsNumber().longValue();
-    }
-    if (value instanceof Number && other.value instanceof Number) {
-      double a = getAsNumber().doubleValue();
-      // Java standard types other than double return true for two NaN. So, need
-      // special handling for double.
-      double b = other.getAsNumber().doubleValue();
-      return a == b || (Double.isNaN(a) && Double.isNaN(b));
-    }
-    return value.equals(other.value);
-  }
+    // Implement equals()
+  }*/
 
   /**
    * Returns true if the specified number is an integral type
