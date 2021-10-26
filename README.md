@@ -9,7 +9,7 @@
 # Gson
 The [Gson open source project](https://github.com/google/gson)  is a Java library that can be used to convert Java objects into their [JSON representation](https://github.com/invariants-studies/gson0#json). It can also be used to convert a JSON string to an equivalent Java object. Gson can work with arbitrary Java objects including pre-existing objects that you don't have the source code for.
 
-There are a few open source projects that can convert Java objects to JSON. However, most of them require that you place Java annotations in your classes, which you can't do if you don't have access to the source code. Also, most of these open source projects don't fully support the use of Java Generics. Gson considers both of these as very important design goals.
+There are a few open source projects that can convert Java objects to JSON. However, most of these open source projects require that you place Java annotations in your classes, which you can't do if you don't have access to the source code. Also, most of these open source projects don't fully support the use of Java Generics. Gson considers both of these as very important design goals.
 
 # Gson Example
 This example shows serialization and deserialization of a Gson object:
