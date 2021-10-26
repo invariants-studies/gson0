@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="315391af-a4aa-4215-a24a-988f72e94098" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/google/gson/JsonPrimitive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/google/gson/JsonPrimitive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/google/gson/internal/LazilyParsedNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/google/gson/internal/LazilyParsedNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/google/gson/JsonPrimitiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/google/gson/JsonPrimitiveTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/google/gson/internal/LazilyParsedNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/google/gson/internal/LazilyParsedNumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +139,8 @@
       <updated>1579232380578</updated>
       <workItem from="1579232384820" duration="2390000" />
       <workItem from="1634066923647" duration="1433000" />
-      <workItem from="1635277571745" duration="665000" />
+      <workItem from="1635277571745" duration="868000" />
+      <workItem from="1635283390053" duration="136000" />
     </task>
     <servers />
   </component>
@@ -184,10 +180,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1634793208527">
+    <state x="424" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1635283389810">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="424" y="260" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1634793208527" />
+    <state x="424" y="260" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1635283389810" />
   </component>
   <component name="masterDetails">
     <states>

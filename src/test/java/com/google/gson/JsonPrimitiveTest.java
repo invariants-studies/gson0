@@ -36,6 +36,11 @@ public class JsonPrimitiveTest extends TestCase {
     // Implement testEquals()
   }*/
 
+  public void testGetAsBigDecimal() {
+    JsonPrimitive json = new JsonPrimitive("1");
+    assertEquals(new BigDecimal("1"), json.getAsBigDecimal());
+  }
+
   public void testNulls() {
     try {
       new JsonPrimitive((Boolean) null);
