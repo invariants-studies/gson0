@@ -40,16 +40,17 @@ BagOfPrimitives obj2 = gson.fromJson(json, BagOfPrimitives.class);
 # JSON Example
 This example is a JSON string:
 ```
-'{"name":"John", "age":30, "car":null}'
+'{"name":"R2", "class":"Astromech", "equipment":null}'
 ```
 
 It defines an object with 3 properties:
 - name
-- age
-- car
+- class
+- equipment
 
 Each property has a value. If you parse the JSON string with a JavaScript program, you can access the data as an object:
 ```
-let personName = obj.name;
-let personAge = obj.age;
+let droidName = obj.name;
+let droidClass = obj.class;
+let driodEquipment  = obj.equipment
 ```
