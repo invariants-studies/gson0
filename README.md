@@ -26,10 +26,12 @@ class BagOfPrimitives {
 // Serialization
 BagOfPrimitives obj = new BagOfPrimitives();
 Gson gson = new Gson();
-String json = gson.toJson(obj); // ==> json is {"value1":1,"value2":"abc"}
+String json = gson.toJson(obj); 
+// ==> String json is {"value1":1,"value2":"abc"}
 
 // Deserialization
-BagOfPrimitives obj2 = gson.fromJson(json, BagOfPrimitives.class); // ==> obj2 is just like obj
+BagOfPrimitives obj2 = gson.fromJson(json, BagOfPrimitives.class); 
+// ==> BagOfPrimitives obj2 is just like obj
 ```
 
 # JSON
