@@ -52,5 +52,5 @@ Each property has a value. If you parse the JSON string with a JavaScript progra
 ```
 let droidName = obj.name;
 let droidClass = obj.class;
-let driodEquipment  = obj.equipment
+let driodEquipment = obj.equipment
 ```
