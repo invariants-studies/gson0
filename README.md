@@ -17,7 +17,6 @@ The following code example from the [Gson User Guide](https://github.com/google/
 class BagOfPrimitives {
   private int value1 = 1;
   private String value2 = "abc";
-  private transient int value3 = 3;
   BagOfPrimitives() {
     // no-args constructor
   }
