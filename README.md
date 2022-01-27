@@ -39,7 +39,7 @@ BagOfPrimitives obj2 = gson.fromJson(json, BagOfPrimitives.class);
 # JSON Example
 This example is a JSON string:
 ```
-'{"name":"R2", "class":"Astromech", "equipment":null}'
+'{"name":"Artoo", "class":"Astromech", "equipment":null}'
 ```
 
 It defines an object with 3 properties:
